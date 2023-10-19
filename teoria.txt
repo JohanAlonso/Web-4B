@@ -1,0 +1,61 @@
+# PDO
+La extencion PDO (PHP Data Objets) de PHP consiste en desarrollar una capa
+de abstraccion para acceder a diferentes BD. Utilizando PDO se logran 
+estandarizar los diferentes mecanismos para realizar la coneccion a una BD
+asi como, recuperar y modificar informacion. Sin embargo, PDO mo estandariza
+SQL lo que se significa que debe lidiar con las diferentes sintaxis de las
+instrucciones en cada administrador de BD.
+CREATE
+READ
+UPDATE
+DELET
+CRUD
+#
+# ATAQUES XSS (CROSS.SITE SCRIPTING)
+#OCURRE UCANDO UN ATACANTE ES CAPAS DE INYECTAR UN SCRIP, NORMAL MENTE JAVA.SCRIP EN EL 
+#OUTPUT DE UNA APLICACION WEB DE FORMA QUE SE EJECUTAN EN EL NAVEGADOR DEL CLIENTE
+#LOS ATAQUES SE PROCUDE POR VALIDAR INCORRECTAMNETE DATOS DE USUARIO, Y SE SUELEN INYECTAR
+#MEDIANTE UN ENLACE ALTERADO 
+
+#<script>alert("Tu aplicacion web a sido HAKED, DEPOSITAME Y TE LIBERO")</script>
+
+#<script>setInterval(function(){alert("Tu aplicacion web a sido HAKED, DEPOSITAME Y TE LIBERO")}, 1000)</script>
+
+#<script>setInterval(function(){a("Tu aplicacion web a sido HAKED, DEPOSITAME Y TE LIBERO")}, 1000)</script>
+
+# para buscar el registro en la BD, realizarlo por un Procedimineto almacenado
+
+# preg_match (google)
+# preg_match -ManuaL -PHP
+# php.net/manual/es/function.preg-mach.php
+
+# preg_match (google)
+# preg_match -ManuaL -PHP - diego lazaro
+# evitar cerrar PHP DE forma formalmente
+<?php
+    #cerrar PHP formalmente
+?>
+<?php
+    #cerrar PHP no formalmente
+#
+#cross-Site Request Forgeries
+#
+#CSRF
+#Se producen cuando el atacante proboca que el usuario ejecute una accion de forma no intencionada a una 
+#applicacion en la que ya abia iniciado cecion cualquier accion que pueda realizar un ususasrio 
+#cuando esta logeado a un sitio web, en el que puede realizar tanbien el atan¡cante , ya seas actualizar 
+#su perfil, añadir objetos a la cesta de la compra, postear mensajes en un foro o canbiar imagenes xxx
+o canbiar cual quier cosa.
+
+
+
+#
+#echo "# web-4B" >> README.md
+#git init
+#git add README.md
+#git commit -m "first commit"
+#git branch -M main
+#git remote add origin https://github.com/herixV/web-4B.git
+#git push -u origin main
+#
+#
